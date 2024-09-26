@@ -13,7 +13,7 @@ glmmTMB_2 <- glmmTMB(incidence ~ period + (1|herd), family=nbinom2, data=glmmTMB
 summary(glmmTMB_2)
 # Hurdle Poisson model
 glmmTMB_3 <- glmmTMB(incidence ~ period + (1|herd), zi=~period, family=truncated_poisson, data=glmmTMB)
-summary(m3)
+summary(glmmTMB_3)
 # Binomial model
 glmmTMB_4 <- glmmTMB(cbind(incidence, size-incidence) ~ period + (1|herd), family=binomial, data=glmmTMB)
 summary(glmmTMB_4)
