@@ -1,6 +1,8 @@
 # glmmTMB
 Fit a generalized linear mixed model (GLMM) using Template Model Builder (TMB) Use glmmTMB With (In) R software
 
+https://www.youtube.com/watch?v=b4DIUrFj0OA
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
